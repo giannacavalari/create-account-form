@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account Form</title>
+    <link rel="stylesheet" href="create-account-form.css">
+</head>
+<body>
+    <div class="form-container">
+
+    <div class="form-header">
+    <h1>Create Account </h1>
+    <p>Fill in details to get started</p>
+    </div>   
+
+    <!--Section1: Name-->
+     <form id="form-group">
+    <div>
+        <label class="required" for="fname">Full Name</label>
+        <br>
+            <input class="text-box" type="text" id="fname" name="fname" placeholder="John Doe" required>
+            <br>
+        <br>
+    </div>
+        <!--Section2: Email-->
+    <div>
+        <label class="required" for="fname">Email Address </label>
+        <br>
+            <input class="text-box" type="text" id="fname" name="fname" placeholder="you@example.com" required>
+            <br>
+        <br>
+    </div>
+        <!--Section3: Password-->
+    <div class="pass">
+        <form>
+        <label class="required" for="fname">Password</label>
+        <br>
+            <input class="text-box" type="text" id="fname" name="fname" required>
+            <p class="cap">Must be at least 8 characters long</p>
+            
+    </div>
+        <!--Section4: Role-->
+    <div>
+        <br>
+        <label for="dropdown">Role</label> 
+        <br>
+        <select name="Role" id="dropdown">
+            <option value="select" selected>Select a Role</option>
+            <option value="Parent">Parent</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Doctor">Doctor</option>
+        </select>
+        
+        <br>
+        <br>
+    </div>
+        <!--Section5: Bio-->
+    <div>
+     <form>
+        <label for="para">Bio</label>
+    <br>
+        <textarea id="para" name="para" cols="58" rows="3">Tell us about yourself</textarea>
+            <p class="cap">Keep it short and sweet</p>
+     </div>
+    
+        <!--Terms And Conditions-->
+    <div>
+        <br>
+        <input type="checkbox" id="agree" name="agree" value="Conditions">
+        <label class="required" for="agree">I agree to the Terms and Conditions</label>
+    </div>
+
+        <br>
+    <button>Create Account</button>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
